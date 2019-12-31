@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java Tutorial</title>
+</head>
+<body>
+
+<strong>Lab Work in Java Programming Language</strong>
+<hr>
+OOP in JAVA
+On the Basis of Tribhuvan University BCA 3rd Semester Syllabus
+<hr>
+Unit-1 Introduction to JAVA
+1) Definition:
+Java is a simple, object oriented, distributed, compiled/interpreted, robust, secure, architecutre neutral, portable, high perfomance, multithreaded and dynamic.
+<hr>
+It is designed in 1995 by Sun MicroSystem, created by James Gosling and team.
+It is platform independent, which means that we only need to write the program once to be able to run it on a number of different platforms.
+It is used to develop apps for Google's Android OS, Various Desktop Applications, such as multimedia players, antivirus programs, web applications, banking software and many more.
+<hr>
+Features of JAVA
+i. Simple
+Java is very easy to learn and its syntax is simple, clean and easy to understand. According to Sun, Java languate is simple programming language because
+
+Java syntax is based on C++.
+Java has removed many complicated and rarely used features, for eg: explicit pointers, operator overloading etc.
+There is no need to remove unrefrence objects because there is and Automatic Garbage Collection in Java
+
+ii. Object-oriented Programming
+Java is an oop language. Everything in java is an object. Object-oriented means we organize our software as a combination of different types of objects that incorporates both data and behavior.
+
+
+iii. Platform Independent
+a)Due to WORA (Write Once Run Anywhere)
+b)Java source code are compiled by the compiler into byte code which are converted by the jvm and run on any platforms  
+
+
+iv. Secured
+Java is best known for its security. With Java, we can develop virus free systems. Java is secured because
+
+No explicite pointer
+Java programs run inside a virtual machine.
+Class loader:
+Class loader in Java is a part of the Java Runtime Environment(JRE). Which is used to load classes into the Java Virtual Machine dynamically.
+
+It adds security by separating the package for the classes of the local file system from those that are imported from network sources.
+Bytecode Verifider:
+It checks the code fragments for illegal code that can violate access right to objects.
+<br>
+
+Security Manager:
+It determines what resources a class can access such as reading and writing to the local disk.
+
+ <br>
+v. Architecture-neutral
+Java is architecture-neutral because there are no implementation dependent features. For example, the size of primitive data types is fixed. <br>
+
+In C programming, int data type occupies 2 bytes of memory for 32-bit architecture and 4 bytes of memory for 64-bit architecture. However, it occupies 4 bytes of memory for both 32 and 64-bit architecture in Java.
+<br>
+
+vi. Robust
+Robust simply means strong. Java is robust because
+Less prone to error
+
+It uses strong memory management.
+There is automatic garbage collection in Java. Which runs on the Java Virtual Machine to get rid of objects which are not being used by Java application anymore.
+There are exception handling and the type checking mechanism in Java. All these point makes Java Robust.
+<br>
+vii. Portable
+Java is portable because it facilities us to carry the Java byte code to any platform. It doesn't require any implementation.
+<br>
+
+viii. High Performance
+Java is faster than other traditional interpreted programming language because java byte code is "close" to native code. It is still a little bit slower than an interpreted language that is why it is slower than compiled languages (c, C++).
+<br>
+
+ix. Distributed
+Java is distributed because it facilites users to create distributed applications in Java. RMI (Remote Method INvocation) and EJB (Enterprise JavaBeans) are used for creating distributed applications. This features of Java makes us able to access files by calling the methods from any machine on the internet.
+<br>
+
+x. Multi-threading
+A threade is like a separate program, executing concurrently. We can write Java program's that deal with many tasks at once by defining multiple threads. The main advantage of multi threading is that it doesnot occupy memory for each thread. It shares a common memory area. Threads are important for multi-media, web applications etc. <br>
+
+
+xi. Dynamic
+Java is dynamic language. It supports dynamic loading of classes. It means classes are loaded on demand. It also supports functions from its native languages. i.e. C, C++.
+Java supports dynamic collection and automatic memory management(Garbage Collection).   <br>
+<hr>
+
+2) History of Java
+Java was orginally designed for interactive television, but it was too advanced technology for the digital cable television industry at that time.
+
+History of Java starts with "Green Team".
+Green Team initiated this project to develop a language for digital devices such as set-top boxes televisions etc. However, it was suited for internet programming.
+Java is used in internet programming, mobile devices, gaming, e-business solutions etc.
+James Gosling, Mike Sheriden and Patrick Naughton initiated the Java language project in 1991. The small team of sun engineers called Green Team.
+Originally designed for small, embedded systems in electronic appliances like set-top boxes
+Firstly, It was called "Greetalk" by James Gosling and file extension was .gt
+After that, it was called Oak and was developed as a part of the Green project.
+Initially developed by James Gosling at Sun MicroSystems ( Which is no a subsidiary of Oracle Corporation) and release in 1995.
+JDK Alpha and Beta(1995)
+JDK 1.0 (23rd Jan 1996)
+JAVA Se 8 (18th March 2014)
+JAVA SE 10 (20th March 2018)
+
+3) The Internet and JAVA's Place in IT
+Java is strongly associated with the internet because of the first applicatoin program written in Java was HotJava.
+Internet users can use Java to create applet programs & run them locally using a Java-enabled browser(HotJava).
+Java applets have made the internet a true extension of the storage system os the local computer.
+
+
+Java communicates with a web page through a special tag.
+Java user sends a request for an HTML document to the remote computer net browser.
+The web browser is a program that accepts a request, process the request and sends the required documents.
+The HTML document is returned to that user browser.
+The document contains the applet tag which identifies the applet. The corresponding applet is transferred to the user computer.
+The Java enabled browswer on the user's computer interprets the byte code and provide output.
+4) Applications and Applets
+i) Application
+Application is stand-alonge Java program that runs with the support of a virtual machine in a client or server side. Also referred to as an application program, a Java application is designed to perform specifi function to run on any Java compatible virtual machine regardless of the computer architecture. An application is either executed for the user or for some other application program. Examples of Java application includes database programs, development tools, word processors, text and image editing programs, spreadsheets, web browswers etx.
+
+ii) Applets
+Unlike a Java application, an applet is specifically designed to be executed with in an HTML web document using and external API. They are basically small programs more like the web version of an application that require a Java plugin to run on client browser. They run on the client side and are generally used for internet computing. We can execute a Java applet in HTML page exactly as we would include an image in a web page. when we see a HTML page with an applet in a Java-enabled web browser, the applet code gets transferred to the system and is finally run by the Java-enabled virtual machine on the browser.
+
+
+Differences Between application and applets in Java.
+Application	Applet
+1. A standalone program that is designed to run on a stanalone machine to accomplish a task.	1. A small application that performs one specific task that runs within the scope.
+2. It is a large program.	2. It is a small program.
+3. Created by writing the program inside the main method.	3. Created by extending the java.applet.Applet.
+4. Can perform file reading and writing on the local computer.	4. Cannot read and write files on the local computer.
+5. Can be executed using Java Runtime Environment(JRE).	5. Executed by any Java compatible web browswer.
+6. Started from main() method.	6. Started/ Initialized through init() method.
+7. Can access data and resources available on the system without any security restrictions.	7. Executed in a more restricted environment with more security restrictions. They can only access the browswer specific services.
+5) Java Virtual Machine (JVM)
+JVM is an abstract machine. It is called a virtual machine because it doesn't physically exist. It is a specification that provides a runtime environment in which Java bytecode can be executed. It can also run those program which are written in other languages and compiled to Java bytecode.
+
+JVM are available for many hardware and software platforms. JVM, JRE and JDK are platform dependent because the configuration of each operating system is different from each other. However, Java is platform independent.
+
+There are three notations of JVM
+Specification:
+Where working of JVM is specified.
+An Implementation:
+Its implemenatation is known as JRE.
+Runtime Instance:
+whenever we write java command on the command prompt to run the Java class, an instance of JVM is created.
+The JVM performs the following main tasks.
+Verifies Code,
+Executes Code,
+Provies Runtime Environment.
+
+6) Java Runtime Environment (JRE)
+It is a set of software tools which are used for developing Java applications. It is used to provide the runtime environments. It is the implementation of JVM. It physically exist. It contains a set of libraries + other files that JVM uses at runtime.
+
+
+
+7) Java Development Kit (JDK)
+The JDK is a software develoment environment which is used to develop applications and applets. It physically exists. It cantains JRE + development tools.
+
+JDK is an implementation of any one of the below given Java platforms released by Oracle Corporation
+
+Standard Edition Java Platform
+Enterprise Edition Java Platform
+Micro Edition Java Platform
+
+
+8) Byte Code not an Executable Code
+Java bytecode is the instruction set for the JVM. As soon as Java program is compiled, Java bytecode is generated. In more apt terms, Java bytecode is the machine code in the form of a .class file.
+
+With the help of Java bytecode we achieve platform independence in Java.
+
+
+
+9) Procedural-Oriented Vs Object-Oriented Programminig
+Procedural-Oriented	Object-Oriented
+1. Program is divided into small parts called functions.	1. Program is divided into small parts called Objects.
+2. It follows top down approach.	2. It follows bottom up approach.
+3. There is no access specifier in procedural programming.	3. They have access specifiers like private, public, protected, default.
+4. Adding new data and function is not easy.	4. Adding new data and function is easy.
+5. They does not have any proper way for hiding data so it is less secure.	5. They provides data hiding so it is more secure.
+6. Overloading is not possible.	6. Overloading is possible.
+7. Function is more important that data.	7. Data is more important than function.
+8. Procedural programming is based on unreal world.	8. Object oriented programming is based on real world.
+9. Example: C, FORTAN, PASCAL, BASIC etc.	9. Example: C++, JAVA, PYTHON, C# etc.
+10) Compiling and Running a Simple Program
+Compiling and running a java program is very easy after JDK installation. Following are the steps:
+
+Open a command prompt window and goto the directory where you saved the Java program.
+Type 'javac FileName.java' and press enter to compile your code. If there are no errors in your code, the command prompt will take you to the next line ( Assumption: The path variable is set).
+Now, type 'java filename' to run your program.
+We will be able to see the result printed on the window.
+
+Setting up your computer for Java Environment
+Assuming we have installed Java in C:\Program Files\Java\jdk\bin
+
+Right click on 'This pc' and select 'properties'.
+Click the 'Environment Variables' button under the 'Advanced' tab.
+Now, alter the 'path' variable so that it also contains the path to the Java executable. Example, if the path is currently set to 'C:\WINDOWS\SYSTEM32' then change your path to read 'C:\WINDOWS\SYSTEM32;C:\Program Files\java\jdk\bin'
+
+11) Writing a Program
+public class HelloWorld{
+  public static void main(String[] args){
+  System.out.println("Hello World!");
+ }
+}
+
+class: keyword is used to declare a class in java.
+public: keyword is an access modifier which represents visibility. It means it is visible to all.
+static: there is no need to create an object to invoke the static method.
+void: is the return type of the method. Which doesn't return any thing.
+main: represents the starting point of the program.
+String[] args: is used for command like argument.
+System.out.println(): is used to print statement.
+
+12) Interpreting and Running the Program
+Once your program successfully compiles into Java bytecodes you can interpret and run applications on any Java Virtual Machine. Interpreting and running a java program means invoking the java Virtual Machine bytecode interpreter, which converts the Java bytecodes to platform-dependent machine codes so your computer can understand and run the program.
+
+The Java interpreter is invoked at the command like on DOS shell operating systems as follows:
+java ExampleProgram
+
+
+Unit 2 Tokens, Expressions and Control Structure
+1) Data Types in JAVA
+Data types are the collection of values and set of operations on those values. It specify the different sizes and values that can be stored in the variable.
+There are two types of data types in Java.
+
+
+Data Type	Default Value	Default Size
+boolean	    false	        1 bit
+char	'   2byte              \u0000'	
+byte	0	1 byte
+short	0	2 byte
+int	0	4 byte
+long	0l	8 byte
+float	0.0f	4 byte
+double	0.0d	8 byte
+#Why char uses 2 byte in Java and what is '\0000'?
+ans: It is because it uses unicode system not ASCII code system.
+The \u0000 is the lowest range of unicode system.
+
+2) User define data type.
+They are those that programmer himself defines. For example classes, interfaces.
+
+
+3) Constant in Java.
+A constant is a variable whose value cannot change once it has been assigned. Java doesn't have built-in support for constants.
+
+  A constant can make our program more easily read and understood by others. In addition, a constant is cached by JVM as well as our application. So using a constant can imporove performance.
+
+To define a variable as a constant, we just need to add the keyword "final" in front of the variable declaration.
+
+
+For Example:
+final float pi = 3.14f;
+
+4) Identifiers
+ In programming languages, identifiers are used for identification purpose. In Java, an identifier can be a class name, method name, variable or a label. For example:
+
+public class Test{
+ public static void main(String[] args){
+  int a = 40;
+  }
+}
+Test: Class name
+
+main: Method name
+
+String: Predefined class name
+
+args: Variable name
+
+a: Variable name
+
+#Rules for defining Java Identifiers:
+ There are certain rules for defining a valid Java identifier. These ruels must be followed, otherwise we get compile-time error.
+
+The only allowed characters for identifiers are all alphanumeric characters( A-Z, a-z, 0-9), '$', '_'
+Identifers should not start with digits(0-9)
+Java identifiers are case-sensitive.
+There is no limit on the length of the identifers but it is advisable to use and optimum length of 4-15 leters only.
+Reserve words can't be used as an identifiers.
+#Reserved Words (53)
+Any programming language reserves some words to represent funtionalities defined by that language. These words are called reserve words.
+They can be briefly categorised into two parts.
+
+i) keyword(50)
+ii) literals(3)
+
+Unit 3 Object Oriented Programming Concepts
+1) JAVA OOPs Concepts
+
+</body>
+</html>
